@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+p, li, ul {
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  list-style-type: none;
+}
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}

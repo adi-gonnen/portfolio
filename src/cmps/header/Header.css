@@ -1,0 +1,25 @@
+.header {
+    background-color: #4e4747;
+    color: white;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.a-link {
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.a-link:visited {
+    color: inherit;
+}
+.a-link:hover {
+    color: blue;
+}
+
