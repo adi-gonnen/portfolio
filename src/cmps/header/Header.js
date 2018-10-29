@@ -9,7 +9,9 @@ export default class Header extends Component {
         return (
             <div className="header flex">
                 <div className="nav-home">
-                    <a href="#home" className="a-link">home</a>
+                    <a href="#home" className="a-link">
+                        <img src='img/adi.jpg' alt= ''/>
+                    </a>
                 </div>
                 <ul className="nav-links flex">
                     <li>

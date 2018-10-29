@@ -1,7 +1,7 @@
 .home {
     /* margin-top: 120px; */
     /* height: 300px; */
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 100px;
     /* position: absolute; */
 }
@@ -15,31 +15,30 @@
     padding-top: 20px;
     color: #9a5a22;
     z-index: 3;
-    position: relative;
-    top: -525px;
+    position: absolute;
+    top: 118px;
     justify-content: space-between;
+    margin-bottom: 40px;
+    
 }                    
 
 .home-container>h1 {
     font-style: italic;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
     padding-top: 10px;
     text-shadow: 3px 1px 0px white;
     font-size: 3em;
+    opacity: 1;
 }
 
 .home-title {
     font-size: 1.5em;
     padding-top: 15px;
     padding-left: 15px;
-    margin: auto;
+    margin: 20px auto;
+    text-shadow: 3px 1px 0px #c7bebe;
 }
-.home-title>img {
-    width: 225px;
-    height: 225px;
-    /* border: 7px solid white; */
-    border-radius: 50%;
-}
+
 .home-details {
     justify-content: space-between;
     align-items: center;

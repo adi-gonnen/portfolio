@@ -21,17 +21,17 @@ class Home extends Component {
         }
         return (
             <div id="home" className="home">
-                <div style={imgStyle} className="home-img"></div>
-                <div className="home-container flex column">
-                    <div className="home-title flex">
-                        <img src='img/adi.jpg' alt= ''/>
-                        <div className="home-details flex column">
+                <div  style={imgStyle} className="home-img"> </div>
+                <div  className="home-container flex column">
+                    <div className="home-title flex column">
+                        {/* <div className="home-details flex column"> */}
                             <h1>Adi Gonnen</h1>
                             <h3>full-stack developer</h3>
-                        </div>
+                        {/* </div> */}
                     </div>
                     <h1>welcome to my portfolio</h1>
                 </div>
+               
                 <div className="cmps-container">
                     <ScrollableAnchor id={'about'}>
                         <About />

@@ -5,9 +5,10 @@
     align-items: center;
     justify-content: space-between;
     top: 0;
-    height: 100px;
+    height: 130px;
     width: 100%;
     text-transform: capitalize;
+    z-index: 7;
 }
 
 .a-link {
@@ -23,3 +24,11 @@
     color: blue;
 }
 
+.a-link:active {
+    color: blue;
+}
+.a-link>img {
+    width: auto;
+    height: 130px;
+    border-radius: 50%;
+}

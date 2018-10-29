@@ -24,8 +24,8 @@ const projects = [
         desc: 'This famouse game was my first test at Coding Academy: built it from zero with all the rulls and 3 levels. It has a pure JS (no framework yet) and a very basic CSS' ,
         labels: ['js'],
         src: 'img/mine.png',
-        href: '',
-        code: ''
+        href: 'https://adi-gonnen.github.io/mine-sweeper/',
+        code: 'https://github.com/adi-gonnen/mine-sweeper'
     },
     {
         id: 'weather',
