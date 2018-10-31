@@ -4,9 +4,12 @@ import './App.css';
 import Header from './cmps/header/Header';
 import Home from './cmps/home/Home';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCircle } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCircle)
+library.add(faPhone)
+library.add(faEnvelope)
+// library.add(faLinkedin)
+// library.add(faGithub)
 
 class App extends Component {
 

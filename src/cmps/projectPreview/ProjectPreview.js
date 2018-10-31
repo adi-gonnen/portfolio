@@ -12,27 +12,31 @@ class ProjectPreview extends Component {
         var imgSrc = project.src;
         if (!project.src) imgSrc = 'img/adi.png';
         else imgSrc = project.src;
-        const hrefLink = project.href;
+        // const hrefLink = project.href;
         const imgStyle = {
             backgroundImage: 'url(' + imgSrc + ')',
-            backgroundSize: 'cover', 
-            backgroundPosition: 'center', 
-            backgroundrepeat: 'no-repeat',
         }
         return (
-            <div className="project-preview">
-                <p>{project.name}</p>
+            <div className="project-preview flex column">
+                <div className="project-title flex">
+                    <p className="project-name">{project.name}</p>
+                    <p>{project.subName}</p>
+                </div>
                 <a href={project.href} target="_blank">
                     <div style={imgStyle} className="a-img"></div>
                 </a>
-                <p>{project.desc}</p>
-                <ul className="ul-labels flex">
-                    {project.labels.map(label => (
-                        <li className="genre" key={label}>{label}</li>
-                        ))}
-                </ul>
-                <a href={project.href} target="_blank">site</a>
-                <a href={project.code} target="_blank">code</a>
+                <p className="desc">{project.desc}</p>
+                <div className="preview-bottom flex column">
+                    <ul className="ul-labels flex">
+                        {project.labels.map(label => (
+                            <li className="label" key={label}>{label}</li>
+                            ))}
+                    </ul>
+                    <div className="links flex">
+                        <a href={project.href} target="_blank">site</a>
+                        <a href={project.code} target="_blank">code</a>
+                    </div>
+                </div>
             </div>
         )
     }

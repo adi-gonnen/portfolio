@@ -1,3 +1,36 @@
+.contact-list {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 .hide {
-    display: none;
+    visibility: hidden;
+}
+
+.contact>h1 {
+    color: #9a5a22;
+    text-shadow: 3px 1px 0px #c7bebe;
+    font-style: italic;
+    margin: 40px auto;
+    padding-top: 140px;
+}
+
+.link {
+    font-size: 28px;
+    color: #4e4747d9;
+    margin: 10px;
+}
+
+.link:hover, .phone:hover {
+    color: black;
+}
+.phone {
+    cursor: pointer;
+    color: #4e4747d9;
+    font-size: 24px;
+    margin: 10px;
+}
+.phone-num {
+    margin-bottom: 50px;
 }

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './Contact.css';
 
 class Contact extends Component {
     // state = {
@@ -16,9 +18,13 @@ class Contact extends Component {
     //     newSubject = ev.target.value;
     //     this.setState({subject: newSubject});
     // }
+    showPhone =() => {
+        document.querySelector('.phone-num').classList.toggle('hide');
+    }
     render() {
         return (
             <div className="contact">
+                <h1>Contact</h1>
                 <p>You can either contact me via Linkedin or give me a call:</p>
                 {/* <div className="section-contact" id="form">
                      <form method="post" action=`mailto:adigonnen@gmail.com?subject=${this.state.subject}&message=${this.state.message}`>
@@ -36,10 +42,20 @@ class Contact extends Component {
                     </form> 
                 </div> */}
                 <div className="contact-list flex">
-                    <div>Linkedin</div>
-                    <div>phone</div>
+                    <div className="link">
+                        <a className="link" href="https://www.linkedin.com/in/adi-gonnen/" target="_blank">
+                            <i className="fab fa-linkedin"></i>
+                        </a> 
+                    </div>
+                    <div class="phone" onClick={this.showPhone}>
+                        {/* <FontAwesomeIcon icon="phone"/> */}
+                        <i class="fas fa-phone"></i>
+                    </div>
                 </div>
-                <p className="hide">054-6768418</p>
+                <p className="phone-num hide">
+                    054-6768418
+                    <a href="tel:+972546768418" />    
+                </p>
             </div>
         )
     }

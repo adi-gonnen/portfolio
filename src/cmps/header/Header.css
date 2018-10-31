@@ -15,20 +15,21 @@
     margin: 10px;
     text-decoration: none;
     text-transform: capitalize;
+    font-size: 18px;
 }
 
+.a-link>img {
+    width: auto;
+    height: 124px;
+    border-radius: 50%;
+}
 .a-link:visited {
     color: inherit;
 }
 .a-link:hover {
-    color: blue;
+    color: #d49863;
 }
 
 .a-link:active {
-    color: blue;
-}
-.a-link>img {
-    width: auto;
-    height: 130px;
-    border-radius: 50%;
+    color: #d49863;
 }

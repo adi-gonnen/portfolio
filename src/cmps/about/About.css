@@ -1,7 +1,37 @@
 .about {
-    margin-top: 40px;
+    width: 70%;
+    margin: 100px auto;
+    line-height: 1.75;
 }
 
+.about>h1 {
+    color: #9a5a22;
+    text-shadow: 3px 1px 0px #c7bebe;
+    font-style: italic;
+    padding-top: 140px;
+}
+.about-text-container {
+    text-align: start;
+}
+.about-text {
+    margin-bottom: 25px;
+}
 .education-list {
+    margin-left: 50px;
+}
+
+.education-list>li {
     list-style-type: disc;
+}
+
+.labels {
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+.labels>p {
+    border: 1px solid #dcc3c3;
+    padding: 4px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    min-width: fit-content;
 }

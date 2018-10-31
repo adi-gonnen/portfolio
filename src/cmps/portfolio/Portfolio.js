@@ -14,6 +14,7 @@ class Portfolio extends Component {
     render() {
         return (
     <div className="portfolio">
+        <h1>portfolio</h1>
         <ul className="portfolio-list flex">
             {this.state.projects && this.state.projects.map(project => (
                 <li className="proj-list" key={project.id}>
