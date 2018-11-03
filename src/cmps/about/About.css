@@ -5,7 +5,7 @@
 }
 
 .about>h1 {
-    color: #9a5a22;
+    color: #6a3014;
     text-shadow: 3px 1px 0px #c7bebe;
     font-style: italic;
     padding-top: 140px;
@@ -34,4 +34,13 @@
     margin: 10px 5px;
     border-radius: 4px;
     min-width: fit-content;
+}
+
+.bold {
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .about {
+        width: 85%;
+    }
 }

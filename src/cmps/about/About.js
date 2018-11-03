@@ -8,15 +8,13 @@ class About extends Component {
             <div className="about">
                 <h1>about</h1>
                 <div className="about-text-container"> 
-                    <p className="about-text">We all know stories about developers who worked for couple of years at High-Tech companies, and then open a gelateria or something like that.
-                        Well, my story is opposite: I've been working for 10 years as an ice cream developer (as a project manager at Nestle Ice Cream), and then found out the coding- and got in love.
-                        So I turned to a new way and graduated the Coding Academy school as Fullstack developer.<br/>
-                        My expertise is to build a single page application from scratch- with the cutting edge technology, server side and client side, advanced framework like Vue or React and responsive design.<br/>
-                        {/* I have a practical knowledge at: Java Script, ES6, Html, CSS, SCSS, AJAX, MVC and responsive design.<br/>
-                        In the server side I worked with Node.JS, MongoDB and rest-API.<br/>
-                        The frameworks I worked with are Vue.js (include VueX and Vue-Cli) and React. */}
+                    <p className="about-text">We all know stories about developers who worked for couple of years at high-tech companies, and then opened a gelateria or something like that.
+                        Well, my story goes the opposite way: I've been working for 10 years as an ice cream developer (as a project manager at Nestle Ice Cream), and then discovered coding- and felt in love.
+                        So I took a new path and graduated the Coding Academy school as Fullstack developer.<br/>
+                        My expertise is building single page applications from scratch- using the cutting edge technologies, server side and client side, advanced frameworks like Vue or React and responsive design.<br/>
                         This page was written in React. 
                     </p>
+                    <div className="bold">Some of my expertise:</div>
                     <div className="labels flex">
                         <p>Java Script</p>
                         <p>ES6</p>
@@ -32,6 +30,7 @@ class About extends Component {
                         <p>VueX</p>
                         <p>React</p>
                     </div>
+                    <div className="bold">Education:</div>
                     <ul className="education-list flex column">
                         <li>Coding Academy- Fullstack Developer Bootcamp</li>
                         <li>M.Sc at BioChemistry- the Hebrew University</li>

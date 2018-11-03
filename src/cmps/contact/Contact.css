@@ -1,22 +1,22 @@
 .contact-list {
-    margin: auto;
+    /* margin: auto; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
-.hide {
-    visibility: hidden;
+.contact>h3 {
+    text-transform: initial;
 }
 
 .contact>h1 {
-    color: #9a5a22;
+    color: #6a3014;
     text-shadow: 3px 1px 0px #c7bebe;
     font-style: italic;
     margin: 40px auto;
     padding-top: 140px;
 }
 
-.link {
+.link-icon {
     font-size: 28px;
     color: #4e4747d9;
     margin: 10px;
@@ -25,12 +25,24 @@
 .link:hover, .phone:hover {
     color: black;
 }
-.phone {
+/* .link-container {
+    margin: auto;
+} */
+.link {
+    align-self: center;
+    text-decoration: none;
+    color: #4e4747;
+}
+.phone-icon {
     cursor: pointer;
     color: #4e4747d9;
     font-size: 24px;
     margin: 10px;
 }
-.phone-num {
+.phone {
+    align-self: center;
+    color: #4e4747;
+}
+.phone-container {
     margin-bottom: 50px;
 }

@@ -11,11 +11,22 @@
     z-index: 7;
 }
 
+.nav {
+    display: flex;
+}
+
+.open-mobile {
+    display: flex;
+}
+
+.close {
+    display: none;
+}
 .a-link {
     margin: 10px;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .a-link>img {
@@ -32,4 +43,79 @@
 
 .a-link:active {
     color: #d49863;
+}
+
+.mobile-menu {
+    float: right;
+    order: 1;
+    width: 100px;
+    z-index: 8;
+    cursor: pointer;
+    display: none;
+}
+
+.line {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    /* height: 15px; */
+    width: 40px;
+    right: 2%;
+    /* background: $main-color; */
+    /* border-radius: 10px; */
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+    /* height: 3px; */
+    border-bottom: 3px solid white;
+    /* cursor: pointer; */
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+    
+}
+  
+.line01 {
+    top: 38%;
+    /* right: 10px; */
+}
+
+.line02 {
+    top: 49%;
+}
+
+.line03 {
+    top: 60%;
+}
+
+.hide {
+    display: none;
+}
+
+.nav-mobile {
+    position: absolute;
+    right: 0;
+    top: 110px;
+    border: 1px solid #4e4747;
+    background-color: #4e4747;
+}
+
+.nav-mobile>li {
+    margin-bottom: 20px;
+}
+
+.mobile-menue.close .line01 {
+    transform: rotate(45deg);
+    top: 49%;
+}
+  
+.mobile-menue.close .line02,
+.mobile-menue.close .line03 {
+    transform: rotate(-45deg);
+    top: 49%;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+    .mobile-menu {
+        display: flex;
+    }
 }

@@ -89,3 +89,26 @@
     height: 70px;
     padding: 0 10px;
 }
+
+@media (max-width: 817px) {
+    .project-preview {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-preview {
+        width: 90%;
+        height: 500px;
+    }
+    .desc {
+        /* margin-bottom: 10px; */
+        height: auto;
+    }
+    .project-name {
+        font-size: 18px;
+    }
+    .label {
+        margin: 10px;
+    }
+}
