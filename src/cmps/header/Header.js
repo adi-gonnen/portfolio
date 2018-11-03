@@ -6,7 +6,7 @@ import './Header.css';
 export default class Header extends Component {
     toggleMenu = () => {
         document.querySelector('.nav-mobile').classList.toggle('close');
-        // document.querySelector('.mobile-menu').classList.toggle('open-mobile');
+        document.querySelector('.animated-icon').classList.toggle('open');
     }
     render() {
         return (
@@ -27,20 +27,24 @@ export default class Header extends Component {
                        <a href="#contact" className="a-link">contact</a>
                     </li>
                 </ul>
-                <div className="mobile-menu" onClick={this.toggleMenu}>
+                <button class="navbar-toggler" onClick={this.toggleMenu} >
+                    <div class="animated-icon"><span/><span/><span/></div>
+                </button>
+
+                {/* <div className="mobile-menu" onClick={this.toggleMenu}>
                     <div className="line line01"></div>
                     <div className="line line02"></div>
                     <div className="line line03"></div>
-                </div>
+                </div> */}
                 <ul className="nav-mobile flex column close">
                     <li>
-                       <a href="#about" className="a-link">about</a>
+                       <a href="#about" className="a-link" onClick={this.toggleMenu}>about</a>
                     </li>
                     <li>
-                       <a href="#portfolio" className="a-link">portfolio</a>
+                       <a href="#portfolio" className="a-link" onClick={this.toggleMenu}>portfolio</a>
                     </li>
                     <li>
-                       <a href="#contact" className="a-link">contact</a>
+                       <a href="#contact" className="a-link" onClick={this.toggleMenu}>contact</a>
                     </li>
                 </ul>
             </div>
