@@ -16,7 +16,7 @@
     height: 500px;
     width: 100%;
     padding-top: 20px;
-    color: #6a3014;
+    color: #d27019;
     z-index: 3;
     position: absolute;
     top: 118px;
@@ -29,7 +29,7 @@
     font-style: italic;
     margin-bottom: 35px;
     padding-top: 10px;
-    text-shadow: 3px 1px 0px white;
+    /* text-shadow: 3px 1px 0px white; */
     font-size: 3em;
     opacity: 1;
 }
@@ -39,7 +39,7 @@
     padding-top: 15px;
     padding-left: 15px;
     margin: 20px auto;
-    text-shadow: 3px 1px 0px #c7bebe;
+    /* text-shadow: 3px 1px 0px #c7bebe; */
 }
 
 .home-details {

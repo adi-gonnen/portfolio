@@ -46,7 +46,7 @@
 
 .links>a {
     border: 1px solid #dcc3c3;
-    background-color: #4e4747d9;
+    background-color: black;
     color: white;
     width: 70px;
     padding: 4px;
@@ -56,7 +56,7 @@
 }
 
 .links>a:hover {
-    background-color: black;
+    background-color: #4e4747d9;
 }
 
 .ul-labels {

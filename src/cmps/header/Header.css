@@ -38,10 +38,10 @@
     color: white;
 }
 .a-link:hover {
-    color: #d49863;
+    color: #d27019;
 }
 
-.a-link:active {
+a:active {
     color: #d49863;
 }
 
