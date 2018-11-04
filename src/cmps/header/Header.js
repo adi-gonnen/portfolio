@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
-import {Link} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import './Header.css';
 
 export default class Header extends Component {
@@ -27,15 +27,9 @@ export default class Header extends Component {
                        <a href="#contact" className="a-link">contact</a>
                     </li>
                 </ul>
-                <button class="navbar-toggler" onClick={this.toggleMenu} >
-                    <div class="animated-icon"><span/><span/><span/></div>
-                </button>
-
-                {/* <div className="mobile-menu" onClick={this.toggleMenu}>
-                    <div className="line line01"></div>
-                    <div className="line line02"></div>
-                    <div className="line line03"></div>
-                </div> */}
+                <div className="navbar-toggler" onClick={this.toggleMenu} >
+                    <div className="animated-icon"><span/><span/><span/></div>
+                </div>
                 <ul className="nav-mobile flex column close">
                     <li>
                        <a href="#about" className="a-link" onClick={this.toggleMenu}>about</a>

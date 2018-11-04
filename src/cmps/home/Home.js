@@ -17,10 +17,8 @@ class Home extends Component {
                 <div style={imgStyle} className="home-img"> </div>
                 <div className="home-container flex column">
                     <div className="home-title flex column">
-                        {/* <div className="home-details flex column"> */}
-                            <h1>Adi Gonnen</h1>
-                            <h3>full-stack developer</h3>
-                        {/* </div> */}
+                        <h1>Adi Gonnen</h1>
+                        <h3>full-stack developer</h3>
                     </div>
                     <h1>welcome to my portfolio</h1>
                 </div>

@@ -14,7 +14,7 @@ class About extends Component {
                         My expertise is building single page applications from scratch- using the cutting edge technologies, server side and client side, advanced frameworks like Vue or React and responsive design.<br/>
                         This page was written in React. 
                     </p>
-                    <div className="bold">Some of my expertise:</div>
+                    <div className="bold">My expertise:</div>
                     <div className="labels flex">
                         <p>Java Script</p>
                         <p>ES6</p>

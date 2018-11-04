@@ -9,16 +9,16 @@ class Contact extends Component {
                 <h3>You can either contact me via Linkedin or give me a call:</h3>
                 <div className="contact-list flex column">
                     <div className="link-container flex">
-                        <a className="link-icon" href="https://www.linkedin.com/in/adi-gonnen/" target="_blank">
+                        <a className="link-icon" href="https://www.linkedin.com/in/adi-gonnen/" target="_new">
                             <i className="fab fa-linkedin"></i>
                         </a> 
-                        <a className="link" href="https://www.linkedin.com/in/adi-gonnen/" target="_blank">
+                        <a className="link" href="https://www.linkedin.com/in/adi-gonnen/" target="_new">
                             <p>www.linkedin.com/in/adi-gonnen</p>
                         </a> 
                     </div>
-                    <div class="phone-container flex">
+                    <div className="phone-container flex">
                         <div className="phone-icon">
-                            <i class="fas fa-phone"></i>
+                            <i className="fas fa-phone"></i>
                             <a href="tel:+972546768418" />    
                         </div>
                         <p className="phone">
