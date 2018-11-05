@@ -27,7 +27,7 @@ class About extends Component {
                         <p>Node.JS</p>
                         <p>MongoDB</p>
                         <p>Vue.js</p>
-                        <p>VueX</p>
+                        <p>Vuex</p>
                         <p>React</p>
                     </div>
                     <div className="bold">Education:</div>

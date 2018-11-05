@@ -44,7 +44,7 @@ const projects = [
         desc: 'A small app to render movies with some data from API. Built with React' ,
         labels: ['React', 'rest-API', 'axios', 'CSS', 'CRUD'],
         src: 'img/movie.png',
-        href: 'https://adi-gonnen.github.io/cinema/#/',
+        // href: 'https://adi-gonnen.github.io/cinema/#/',
         code: 'https://github.com/adi-gonnen/cinema'
     },
     {

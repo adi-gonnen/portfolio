@@ -158,4 +158,13 @@ a:active {
     .navbar-toggler {
         display: flex;
     }
+    .a-link>img {
+        height: 100px;
+    }
+    .header {
+        height: 105px;
+    }
+    .nav-mobile {
+        top: 100px;
+    }
 }
