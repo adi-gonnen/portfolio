@@ -44,14 +44,14 @@ const projects = [
         desc: 'A small app to render movies with some data from API. Built with React' ,
         labels: ['React', 'rest-API', 'axios', 'CSS', 'CRUD'],
         src: 'img/movie.png',
-        // href: 'https://adi-gonnen.github.io/cinema/#/',
+        href: 'https://adi-gonnen.github.io/cinema/#/',
         code: 'https://github.com/adi-gonnen/cinema'
     },
     {
         id: 'psd',
         name: 'psd-to-html',
         desc: 'Practice some real job- get a psd page, turn it into an html page' ,
-        labels: ['js', 'CSS'],
+        labels: ['CSS'],
         src: 'img/psd.png',
         href: 'https://adi-gonnen.github.io/psd-to-html/',
         code: 'https://github.com/adi-gonnen/psd-to-html'

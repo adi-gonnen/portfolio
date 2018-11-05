@@ -1,8 +1,4 @@
-.portfolio {
-}
-
 .portfolio-list {
-    /* margin: auto; */
     flex-wrap: wrap;
     justify-content: center;
 }

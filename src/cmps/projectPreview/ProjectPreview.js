@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-hash-link';
 import './ProjectPreview.css';
 
-// const ProjectPreview = ({ project }) => (
 class ProjectPreview extends Component {
     state = {
         project: this.props.project
@@ -12,7 +10,6 @@ class ProjectPreview extends Component {
         var imgSrc = project.src;
         if (!project.src) imgSrc = 'img/adi.png';
         else imgSrc = project.src;
-        // const hrefLink = project.href;
         const imgStyle = {
             backgroundImage: 'url(' + imgSrc + ')',
         }

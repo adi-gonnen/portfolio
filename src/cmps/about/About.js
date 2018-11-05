@@ -36,6 +36,9 @@ class About extends Component {
                         <li>M.Sc at BioChemistry- the Hebrew University</li>
                         <li>B.Sc at Biotechnology- Ben-Gurion University</li>
                     </ul>
+                    <div src="img/CV_adi_gonnen.pdf" className="bold">
+                        <a href="img/CV_adi_gonnen.pdf" className="cv" target="_blank">Watch My CV (pdf)</a>
+                    </div>
                 </div>
             </div>
         )

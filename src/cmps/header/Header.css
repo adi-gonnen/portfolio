@@ -45,42 +45,6 @@ a:active {
     color: #d49863;
 }
 
-/* .mobile-menu {
-    float: right;
-    order: 1;
-    width: 100px;
-    z-index: 8;
-    cursor: pointer;
-    display: none;
-} */
-
-/* .line {
-    position: absolute;
-    z-index: 10;
-    color: white;
-    width: 40px;
-    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
-    border-bottom: 3px solid white;
-    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
-    
-} */
-  
-/* .line01 {
-    top: 38%;
-}
-
-.line02 {
-    top: 49%;
-}
-
-.line03 {
-    top: 60%;
-} */
-
-/* .hide {
-    display: none;
-} */
-
 .nav-mobile {
     position: absolute;
     right: 0;
@@ -104,8 +68,6 @@ a:active {
     height: 20px;
     position: relative;
     margin: 0px;
-    /* transform: rotate(0deg); */
-    /* transition: .5s ease-in-out; */
     cursor: pointer;
 }
 
@@ -142,7 +104,6 @@ a:active {
   
 .animated-icon.open span:nth-child(2) {
     opacity: 0;
-    /* left: -60px; */
 }
   
 .animated-icon.open span:nth-child(3) {

@@ -35,7 +35,14 @@
     border-radius: 4px;
     min-width: fit-content;
 }
-
+.education-list {
+    margin-bottom: 25px;
+}
+.cv {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2em;
+}
 .bold {
     font-weight: bold;
 }

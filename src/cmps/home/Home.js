@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 import './Home.css';
 import Portfolio from '../portfolio/Portfolio'
 import About from '../about/About'
@@ -23,15 +22,15 @@ class Home extends Component {
                     <h1>welcome to my portfolio</h1>
                 </div>
                 <div className="cmps-container">
-                    <ScrollableAnchor id={'about'}>
+                    <section id={'about'}>
                         <About />
-                    </ScrollableAnchor>
-                    <ScrollableAnchor id={'portfolio'}>
+                    </section>
+                    <section id={'portfolio'}>
                         <Portfolio />
-                    </ScrollableAnchor>
-                    <ScrollableAnchor id={'contact'}>
+                    </section>
+                    <section id={'contact'}>
                         <Contact />
-                    </ScrollableAnchor>
+                    </section>
                     <Footer/>
                 </div>
             </div>

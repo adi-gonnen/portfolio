@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './cmps/header/Header';
 import Home from './cmps/home/Home';
@@ -8,8 +7,6 @@ import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faPhone)
 library.add(faEnvelope)
-// library.add(faLinkedin)
-// library.add(faGithub)
 
 class App extends Component {
 

@@ -1,7 +1,5 @@
 .contact-list {
-    /* margin: auto; */
     align-items: center;
-    /* justify-content: center; */
 }
 
 .contact>h3 {
@@ -25,9 +23,7 @@
 .link:hover, .phone:hover {
     color: black;
 }
-/* .link-container {
-    margin: auto;
-} */
+
 .link {
     align-self: center;
     text-decoration: none;
