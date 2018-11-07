@@ -23,7 +23,7 @@ const projects = [
     {
         id: 'mine',
         name: 'Mine Sweeper',
-        desc: 'This famouse game was my first test at Coding Academy: built it from scratch with all the rulls and 3 levels. It has a pure JS (no framework yet) and a very basic CSS' ,
+        desc: 'This famouse game was my first test at Coding Academy: I built it from scratch with all the rulls and 3 levels. It has a pure JS (no framework yet) and a very basic CSS' ,
         labels: ['js'],
         src: 'img/mine.png',
         href: 'https://adi-gonnen.github.io/mine-sweeper/',
@@ -41,7 +41,7 @@ const projects = [
     {
         id: 'movie',
         name: 'Movies',
-        desc: 'A small app to render movies with some data from API. Built with React' ,
+        desc: 'A small app to render movies with some data from API. Built with React with full CRUD' ,
         labels: ['React', 'rest-API', 'axios', 'CSS', 'CRUD'],
         src: 'img/movie.png',
         href: 'https://adi-gonnen.github.io/cinema/#/',
